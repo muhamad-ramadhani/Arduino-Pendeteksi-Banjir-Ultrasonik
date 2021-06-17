@@ -52,7 +52,7 @@ void loop() {
     oled.setCursor(40,15);
     oled.println("AMAN");
     oled.setCursor(25,33);
-    oled.println("SANTUY");
+    oled.println("TERKENDALI");
     oled.display();
 
     
@@ -68,9 +68,9 @@ void loop() {
            oled.setTextSize(2);
     oled.setTextColor(WHITE);
     oled.setCursor(20,15);
-    oled.println("HAYOLUH");
+    oled.println("WASPADA");
     oled.setCursor(40,33);
-    oled.println("PANIK");
+    oled.println("BANJIR");
     oled.display();
   } else {
     digitalWrite(2, LOW);
@@ -86,9 +86,9 @@ void loop() {
     oled.setTextSize(2);
     oled.setTextColor(WHITE);
     oled.setCursor(20,15);
-    oled.println("BANJIR!!");
+    oled.println("PERINGATAN");
     oled.setCursor(12,33);
-    oled.println("LARI CUKK");
+    oled.println("BANJIR");
     oled.display();
   } else {
     digitalWrite(3, LOW);
